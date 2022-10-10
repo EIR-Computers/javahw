@@ -14,7 +14,44 @@ public class Poker {
                 cards.add("Club-Q");
                 cards.add("Spade-Q");
             }
+            else if ( i == 13) {
+                cards.add("Heart-K");
+                cards.add("Diamond-K");
+                cards.add("Club-K");
+                cards.add("Spade-K");
+            }
+            else if ( i == 14) {
+                cards.add("Heart-A");
+                cards.add("Diamond-A");
+                cards.add("Club-A");
+                cards.add("Spade-A");
+            }else{
+                cards.add("Heart-" + i);
+                cards.add("Diamond-" + i);
+                cards.add("Club-" + i);
+                cards.add("Spade-" + i);
+            }
 
+        }
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        Integer intInput = Integer.valueOf(input);
+        if (intInput > 7){
+            System.out.println("Too much players");
+        }else {
+            int iter = 0;
+            for (int i = 1; i <= intInput; i++) {
+                System.out.println("----------Player " + i + " cards----------");
+                for(int j = 0; j < 5; j++){
+                    Random rand = new Random();
+                    int x = rand.nextInt(35 - iter);
+                    System.out.println(cards.get(x));
+                    cards.remove(x);
+                    iter += 1;
+                }
+
+
+            }
         }
 
     }
