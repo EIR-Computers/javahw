@@ -3,10 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PR1/PR1.iml" filepath="$PROJECT_DIR$/PR1/PR1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR10/PR10.iml" filepath="$PROJECT_DIR$/PR10/PR10.iml" />
       <module fileurl="file://$PROJECT_DIR$/PR2/PR2.iml" filepath="$PROJECT_DIR$/PR2/PR2.iml" />
       <module fileurl="file://$PROJECT_DIR$/PR3/PR3.iml" filepath="$PROJECT_DIR$/PR3/PR3.iml" />
       <module fileurl="file://$PROJECT_DIR$/PR4/PR4.iml" filepath="$PROJECT_DIR$/PR4/PR4.iml" />
       <module fileurl="file://$PROJECT_DIR$/PR41/PR41.iml" filepath="$PROJECT_DIR$/PR41/PR41.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR6/PR6.iml" filepath="$PROJECT_DIR$/PR6/PR6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR7/PR7.iml" filepath="$PROJECT_DIR$/PR7/PR7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR8/PR8.iml" filepath="$PROJECT_DIR$/PR8/PR8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR9/PR9.iml" filepath="$PROJECT_DIR$/PR9/PR9.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javahw.iml" filepath="$PROJECT_DIR$/.idea/javahw.iml" />
     </modules>
   </component>
